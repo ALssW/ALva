@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alvas/alvas.iml" filepath="$PROJECT_DIR$/alvas/alvas.iml" />
     </modules>
   </component>
 </project>
