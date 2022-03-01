@@ -7,6 +7,15 @@ public class User {
     private String userBirth;
     private String userRegTime;
     private String a;
+    private String[] array;
+
+    public String[] getArray() {
+        return array;
+    }
+
+    public void setArray(String[] array) {
+        this.array = array;
+    }
 
     public String getUserName() {
         return userName;

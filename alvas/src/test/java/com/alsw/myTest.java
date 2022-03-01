@@ -17,16 +17,14 @@ public class myTest {
 
         user.setUserAct("114514");
         user.setUserBirth("1919-x-xx");
-        user.setUserName("abablllwerqtifaniuffiauwfhuawihf");
+        user.setUserName("ababiauwfhuawihf");
         user.setUserPswd("1!23?45678!");
         user.setUserRegTime(time);
+        String[] s = {"1", "2"};
+        user.setArray(s);
 
         PrintTableUtil printTableUtil = new PrintTableUtil(user);
-
         printTableUtil.printTable();
-
-        System.out.println(printTableUtil.getTable());
-
     }
 
 }
