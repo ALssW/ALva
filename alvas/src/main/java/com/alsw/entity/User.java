@@ -6,6 +6,7 @@ public class User {
     private String userPswd;
     private String userBirth;
     private String userRegTime;
+    private String a;
 
     public String getUserName() {
         return userName;

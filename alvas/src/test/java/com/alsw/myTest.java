@@ -22,8 +22,11 @@ public class myTest {
         user.setUserRegTime(time);
 
         PrintTableUtil printTableUtil = new PrintTableUtil(user);
+
+        printTableUtil.printTable();
+
         System.out.println(printTableUtil.getTable());
-        printTableUtil.print();
+
     }
 
 }
